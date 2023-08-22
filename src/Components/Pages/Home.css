@@ -1,0 +1,117 @@
+main.home {
+  width: 100%;
+  max-width: 1200px;
+  margin: auto;
+  padding: 20px;
+}
+
+.bannerHome {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  transition: 2s;
+  margin: 5em 0em;
+}
+
+.description-banner {
+  width: 50%;
+  text-align: center;
+  padding: 20px;
+}
+
+.description-banner > h1 {
+  font-size: 2em;
+  padding-bottom: 0.2em;
+}
+
+.description-banner span {
+  font-size: 2em;
+  background-color: #030226;
+  color: white;
+  padding: 5px;
+  border-radius: 5px;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.3);
+}
+
+.description-banner p {
+  font-size: 0.9em;
+  color: #4e4e4e;
+  padding-top: 2.1em;
+  text-align: justify;
+}
+
+.banner-img {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.banner-img img {
+  max-width: 100%;
+  max-height: 400px;
+}
+
+.wraperDescription {
+  padding: 2em;
+}
+
+.singlePeople {
+  width: 110%;
+  transition: 2s all;
+  margin-left: -6em;
+}
+
+.singlePeople > .description-sigle {
+  padding: 0px;
+}
+
+@media screen and (max-width: 800px) {
+  .bannerHome {
+    flex-direction: column-reverse;
+  }
+  .description-banner {
+    width: 100%;
+  }
+
+  .banner-img {
+    width: 100%;
+  }
+  
+.singlePeople {
+  width: 100%;
+  transition: 2s all;
+  margin: auto;
+}
+}
+
+@media screen and (max-width: 600px) {
+  .singlePeople > .description-sigle {
+    flex-direction: column-reverse;
+  }
+
+  .singlePeople {
+    width: 100%;
+    margin: 0px;
+  }
+}
+
+@media screen and (max-width: 300px) {
+  .description-banner {
+    padding: 0px;
+  }
+
+  .description-banner h1 {
+    font-size: 1.5em;
+    text-align: center;
+  }
+
+  .description-banner span {
+    font-size: 1em;
+    width: 100%;
+    text-align: left;
+  }
+}

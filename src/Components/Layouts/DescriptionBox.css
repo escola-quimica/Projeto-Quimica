@@ -1,0 +1,59 @@
+.description-sigle {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: auto;
+  margin-bottom: 7em;
+}
+
+.img-description {
+  width: 40%;
+  overflow: hidden;
+  border-radius: 50%;
+  margin: auto;
+}
+
+.img-description img {
+  width: 100%;
+  object-fit: cover;
+}
+
+.text-description {
+  width: 50%;
+  text-align: justify;
+  padding: 2em;
+}
+
+.text-description h1 {
+  padding-bottom: 2em;
+}
+
+.text-description p {
+  padding-bottom: 2em;
+}
+
+.buttonDescription {
+  padding: 1.1em 2em;
+  border-radius: 50px;
+}
+
+@media screen and (max-width: 600px) {
+  .description-sigle {
+    flex-direction: column;
+  }
+
+  .img-description {
+    width: 80%;
+  }
+
+  .img-description img {
+    object-fit: none;
+  }
+
+  .text-description {
+    width: 100%;
+    padding: 1em;
+  }
+}

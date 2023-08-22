@@ -1,0 +1,68 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.textoMembros {
+  text-align: center;
+  padding-top: 10px;
+  font-size: 200%;
+  text-decoration: underline;
+}
+
+.tituloMembros {
+  margin: 15px;
+  text-align: right;
+  font-size: 175%;
+  text-decoration: underline;
+}
+
+.container {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  width: 1150px;
+  margin-top: 50px;
+  margin-bottom: 100px;
+}
+
+.container .card {
+  background-color: rgb(241, 239, 239);
+  margin: 10px;
+  border-radius: 10px;
+  display: grid;
+  grid-template-columns: 200px 700px 100px;
+  grid-template-rows: 1fr 1fr;
+  grid-template-areas:
+    "f n c"
+    "f a c";
+}
+
+.container .card img {
+  border-radius: 50%;
+  box-shadow: 1px 1px 1px 1px #dad8d8;
+  padding: 10px;
+  width: 170px;
+  right: 170px;
+  grid-area: f;
+}
+
+.container .card .nome {
+  padding-top: 30px;
+  grid-area: n;
+}
+.container .card .atuacao {
+  grid-area: a;
+}
+
+.container .card a {
+  grid-area: c;
+}
+
+.container .card a img {
+  margin-top: 50px;
+  max-width: 50px;
+  border-radius: 50%;
+}
