@@ -80,7 +80,7 @@ const Membros = () => {
           <h1 className="nome"> Leticia Maria Pequeno Madureira </h1>
           <div className="atuacao"> 
             <p>Tópico da pesquisa:</p>
-            <p>Modelagem Molecular, magnetismo molecular de compostos organometálicos, fotofísica orgânica.</p> 
+            <p>Machine Learning, Métodos Computacionais, Linguagem Julia.</p> 
           </div>
           <a href="" target="_blank" rel="noreferrer"> 
             <img src={github} alt="" />
@@ -111,7 +111,7 @@ const Membros = () => {
             <h1 className="nome"> Filipe Chagas Ferraz</h1>
             <div className="atuacao"> 
               <p>Tópico da pesquisa:</p>
-              <p> computação quântica e machine learning.</p> 
+              <p>Computação quântica e machine learning.</p> 
             </div>
             <a href="https://www.linkedin.com/in/filipe-chagas-ferraz-16a9371b8/" target="_blank" rel="noreferrer"> 
               <img src={linkedin} alt="" />
@@ -124,8 +124,8 @@ const Membros = () => {
           <img src={membroJoao} alt="" />
           <h1 className="nome"> João Gabriel da Silva Gomes</h1>
           <div className="atuacao"> 
-            <p></p>
-            <p></p> 
+            <p>Desenvolvedor Front-end</p>
+            <p>Javascript</p> 
           </div>
           <a href="" target="_blank" rel="noreferrer"> 
             <img src={github} alt="" />
@@ -138,8 +138,8 @@ const Membros = () => {
           <img src={membroKarine} alt="" />
           <h1 className="nome"> Karine da Silva Melo</h1>
           <div className="atuacao"> 
-            <p></p>
-            <p></p> 
+            <p>Desenvolvedora Front-end</p>
+            <p>Javascript</p> 
           </div>
           <a href="" target="_blank" rel="noreferrer"> 
             <img src={github}alt="" />
