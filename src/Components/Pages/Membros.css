@@ -34,7 +34,7 @@
   margin: 10px;
   border-radius: 10px;
   display: grid;
-  grid-template-columns: 200px  auto 100px;
+  grid-template-columns: 200px auto 100px;
   grid-template-rows: 1fr 1fr;
   grid-template-areas: "f n c" 
                        "f a c";
@@ -71,7 +71,33 @@
   border-radius: 50%;
 }
 
-@media screen and (max-width: 768px) {
+
+@media screen and (max-width: 800px) {
+   .container 
+  {
+    display: grid;
+    align-items: center;
+    width: auto;
+  }
+  
+  .container .card{
+  background-color: rgb(241, 239, 239);
+  margin: 10px;
+  border-radius: 10px;
+  display: grid;
+  grid-template-columns: 200px auto 100px;
+  grid-template-rows: 1fr 1fr;
+  grid-template-areas: "f n c" 
+                       "f a c";
+  }
+
+  .container .card img{
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  
+@media screen and (max-width: 600px) {
    .container 
   {
     display: grid;
@@ -101,5 +127,34 @@
     margin-left: auto;
   }
 
+  @media screen and (max-width: 300px) {
+   .container 
+  {
+    display: grid;
+    align-items: center;
+    width: auto;
+  }
+  
+  .container .card
+  {
+    text-align: center;
+    background-color: rgb(241, 239, 239);
+    margin: 10px;
+    border-radius: 10px;
+    display: grid;
+    grid-template-columns: 300px;
+    grid-template-rows: 1fr 1fr auto auto auto;
+    grid-template-areas: "f " 
+                         "f "
+                         "n "
+                         "a "
+                         "c ";
+    margin-bottom: 10px;
+  }
+
+  .container .card img{
+    margin-right: auto;
+    margin-left: auto;
+  }
 
     
