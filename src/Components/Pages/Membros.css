@@ -94,7 +94,7 @@
     margin-right: auto;
     margin-left: auto;
   }
-
+}
   
 @media screen and (max-width: 600px) {
    .container 
@@ -127,6 +127,7 @@
     margin-right: auto;
     margin-left: auto;
   }
+}
 
   @media screen and (max-width: 300px) {
    .container 
@@ -157,5 +158,4 @@
     margin-right: auto;
     margin-left: auto;
   }
-
-    
+}
