@@ -1,25 +1,32 @@
 import { Link } from "react-router-dom";
-// import { BsList } from "react-icons/bs";
+import { BsList } from "react-icons/bs";
+import { useState } from "react";
 
 import EscolaQuimicaLogo from "../imgs/logoQuimica.jpeg";
 
 import "./Navbar.css";
 
 const NavBar = () => {
+  const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
+
+  const toggleMobileMenu = () => {
+    setMobileMenuOpen(!mobileMenuOpen);
+  };
+
   return (
     <header>
-      {/* <div className="mobile">
-        <BsList className="listMobile"/>
-      </div> */}
-
       <nav>
+        <div className="mobile">
+          <BsList className="listMobile" onClick={toggleMobileMenu} />
+        </div>
+
         <div className="logo">
           <Link to={"/"}>
             <img src={EscolaQuimicaLogo} alt="foto da logo" />
           </Link>
         </div>
 
-        <ul>
+        <ul className={mobileMenuOpen ? "mobile-menu-open" : "mobile-menu"}>
           <li>
             <Link to={"/membros"}>Membros </Link>
           </li>

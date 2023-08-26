@@ -122,7 +122,7 @@ const Membros = () => {
         {/* Card Joaão*/}
         <div className="card">
           <img src={membroJoao} alt="" />
-          <h1 className="nome"> João Gabriel da Silva Gomes</h1>
+          <h1 className="nome">João Gabriel da Silva Gomes</h1>
           <div className="atuacao"> 
             <p>Desenvolvedor Front-end</p>
             <p>Javascript</p> 
