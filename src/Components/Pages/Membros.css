@@ -1,24 +1,25 @@
-* {
+*{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-.textoMembros {
+.textoMembros{
   text-align: center;
   padding-top: 10px;
   font-size: 200%;
-  text-decoration: underline;
+  text-decoration:underline;
 }
 
-.tituloMembros {
+.tituloMembros{
   margin: 15px;
   text-align: right;
   font-size: 175%;
   text-decoration: underline;
 }
 
-.container {
+
+.container{
   display: grid;
   justify-content: center;
   align-items: center;
@@ -28,19 +29,19 @@
   margin-bottom: 100px;
 }
 
-.container .card {
+.container .card{
   background-color: rgb(241, 239, 239);
   margin: 10px;
   border-radius: 10px;
   display: grid;
-  grid-template-columns: 200px 700px 100px;
+  grid-template-columns: 200px  auto 100px;
   grid-template-rows: 1fr 1fr;
-  grid-template-areas:
-    "f n c"
-    "f a c";
+  grid-template-areas: "f n c" 
+                       "f a c";
 }
 
-.container .card img {
+
+.container .card img{
   border-radius: 50%;
   box-shadow: 1px 1px 1px 1px #dad8d8;
   padding: 10px;
@@ -49,20 +50,67 @@
   grid-area: f;
 }
 
-.container .card .nome {
+.container  .card .nome{
   padding-top: 30px;
   grid-area: n;
+
 }
-.container .card .atuacao {
+.container .card .atuacao{
   grid-area: a;
+
 }
 
-.container .card a {
+.container .card a{
   grid-area: c;
 }
 
-.container .card a img {
+.container .card a img{
   margin-top: 50px;
+  margin-bottom: 25px;
   max-width: 50px;
   border-radius: 50%;
+}
+
+@media screen and (max-width: px) {
+  .container 
+  {
+    display: grid;
+    align-items: center;
+    width: auto;
+  }
+  
+  .container .card
+  {
+    background-color: rgb(241, 239, 239);
+    margin: 10px;
+    border-radius: 10px;
+    display: grid;
+    grid-template-columns: 200px auto 100px;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas: "f n c" 
+                         "f a c";
+    margin-bottom: 10px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .container 
+  {
+    display: grid;
+    align-items: center;
+    width: auto;
+  }
+  
+  .container .card
+  {
+    background-color: rgb(241, 239, 239);
+    margin: 10px;
+    border-radius: 10px;
+    display: grid;
+    grid-template-columns: 200px auto 100px;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas: "f n c" 
+                         "f a c";
+    margin-bottom: 10px;
+  }
 }
