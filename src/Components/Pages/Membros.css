@@ -18,8 +18,9 @@
   text-decoration: underline;
 }
 
-
 .container{
+  margin-right: auto;
+  margin-left: auto;
   display: grid;
   justify-content: center;
   align-items: center;
@@ -75,6 +76,8 @@
 @media screen and (max-width: 800px) {
    .container 
   {
+    margin-right: auto;
+    margin-left: auto;
     display: grid;
     align-items: center;
     width: auto;
@@ -100,6 +103,8 @@
 @media screen and (max-width: 600px) {
    .container 
   {
+    margin-right: auto;
+    margin-left: auto;
     display: grid;
     align-items: center;
     width: auto;
@@ -130,6 +135,8 @@
   @media screen and (max-width: 300px) {
    .container 
   {
+    margin-right: auto;
+    margin-left: auto;
     display: grid;
     align-items: center;
     width: auto;
