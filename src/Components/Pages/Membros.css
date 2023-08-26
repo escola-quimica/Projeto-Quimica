@@ -71,7 +71,7 @@
   border-radius: 50%;
 }
 
-@media screen and (max-width: px) {
+@media screen and (max-width: 768px) {
   .container 
   {
     display: grid;
@@ -93,7 +93,7 @@
   }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 689px) {
   .container 
   {
     display: grid;
@@ -103,14 +103,23 @@
   
   .container .card
   {
+    text-align: center;
     background-color: rgb(241, 239, 239);
     margin: 10px;
     border-radius: 10px;
     display: grid;
-    grid-template-columns: 200px auto 100px;
-    grid-template-rows: 1fr 1fr;
-    grid-template-areas: "f n c" 
-                         "f a c";
+    grid-template-columns: 300px;
+    grid-template-rows: 1fr 1fr auto auto auto;
+    grid-template-areas: "f " 
+                         "f "
+                         "n "
+                         "a "
+                         "c ";
     margin-bottom: 10px;
+  }
+
+  .container .card img{
+    margin-right: auto;
+    margin-left: auto;
   }
 }
