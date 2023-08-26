@@ -1,4 +1,3 @@
-// Home.js
 import { useSpring, animated } from "react-spring";
 import DescriptionBox from "../Layouts/DescriptionBox";
 import imagemEscolaQuimica from "../imgs/logoQuimica.jpeg";
@@ -24,8 +23,6 @@ const Home = () => {
     triggerOnce: true,
     threshold: 0.2,
   });
-
-  // Para a seção de pessoas
 
   const bannerAnimation = useSpring({
     opacity: bannerInView ? 1 : 0,
@@ -91,6 +88,7 @@ const Home = () => {
               ad quasi fugiat neque porro explicabo nam excepturi cum quisquam
               consectetur. Provident, unde`}
             hasActions
+            layoutType="photo-left"
           />
         </animated.div>
 
@@ -106,6 +104,7 @@ const Home = () => {
               Voluptatum maxime quibusdam amet, quas doloribus incidunt vel ipsa
               ad quasi fugiat neque porro explicabo nam excepturi cum quisquam
               consectetur. Provident, unde`}
+        
           />
         </animated.div>
       </div>
@@ -120,6 +119,7 @@ const Home = () => {
               Voluptatum maxime quibusdam amet, quas doloribus incidunt vel ipsa
               ad quasi fugiat neque porro explicabo nam excepturi cum quisquam
               consectetur. Provident, unde`}
+              layoutType="photo-left"
           />
         </animated.div>
       </div>

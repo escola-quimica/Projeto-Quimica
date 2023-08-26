@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+// import { BsList } from "react-icons/bs";
 
 import EscolaQuimicaLogo from "../imgs/logoQuimica.jpeg";
 
@@ -7,6 +8,10 @@ import "./Navbar.css";
 const NavBar = () => {
   return (
     <header>
+      {/* <div className="mobile">
+        <BsList className="listMobile"/>
+      </div> */}
+
       <nav>
         <div className="logo">
           <Link to={"/"}>

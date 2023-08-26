@@ -8,15 +8,16 @@ main.home {
 .bannerHome {
   width: 100%;
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
   flex-wrap: wrap;
   transition: 2s;
   margin: 5em 0em;
+  gap: 20px;
 }
 
 .description-banner {
-  width: 50%;
+  width: 45%;
   text-align: center;
   padding: 20px;
 }
@@ -45,7 +46,7 @@ main.home {
 .banner-img {
   width: 50%;
   display: flex;
-  justify-content: center;
+  justify-content: flex-end;
   align-items: center;
   padding: 20px;
 }
@@ -60,14 +61,17 @@ main.home {
 }
 
 .singlePeople {
-  width: 110%;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
   transition: 2s all;
-  margin-left: -6em;
 }
 
-.singlePeople > .description-sigle {
-  padding: 0px;
+.singlePeople .description-sigle  {
+  width: 100%;
 }
+
 
 @media screen and (max-width: 800px) {
   .bannerHome {
@@ -79,16 +83,20 @@ main.home {
 
   .banner-img {
     width: 100%;
+    justify-content: center;
   }
-  
-.singlePeople {
-  width: 100%;
-  transition: 2s all;
-  margin: auto;
-}
+
+  .singlePeople {
+    width: 100%;
+    transition: 2s all;
+    margin: auto;
+  }
 }
 
 @media screen and (max-width: 600px) {
+  .wraperDescription {
+    padding: 0px;
+  }
   .singlePeople > .description-sigle {
     flex-direction: column-reverse;
   }

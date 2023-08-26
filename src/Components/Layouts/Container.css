@@ -8,6 +8,7 @@
 
 .max-width {
   max-width: 1900px;
+  margin: auto;
 }
 
 .min-height {

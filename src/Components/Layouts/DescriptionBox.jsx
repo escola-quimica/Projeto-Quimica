@@ -10,9 +10,18 @@ const DescriptionBox = ({
   className,
   style,
   ref,
+  layoutType,
 }) => {
+  const isPhotoOnLeft = layoutType === "photo-left";
+
   return (
-    <div className={`description-sigle ${className} `} style={style} ref={ref}>
+    <div
+      className={`description-sigle ${className} ${
+        isPhotoOnLeft ? "photo-left" : "photo-right"
+      }`}
+      style={style}
+      ref={ref}
+    >
       <div className="img-description">
         <img src={photo} alt={alt} className="round-image" />
       </div>
