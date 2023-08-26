@@ -72,29 +72,7 @@
 }
 
 @media screen and (max-width: 768px) {
-  .container 
-  {
-    display: grid;
-    align-items: center;
-    width: auto;
-  }
-  
-  .container .card
-  {
-    background-color: rgb(241, 239, 239);
-    margin: 10px;
-    border-radius: 10px;
-    display: grid;
-    grid-template-columns: 200px auto 100px;
-    grid-template-rows: 1fr 1fr;
-    grid-template-areas: "f n c" 
-                         "f a c";
-    margin-bottom: 10px;
-  }
-}
-
-@media screen and (max-width: 689px) {
-  .container 
+   .container 
   {
     display: grid;
     align-items: center;
@@ -122,4 +100,6 @@
     margin-right: auto;
     margin-left: auto;
   }
-}
+
+
+    
