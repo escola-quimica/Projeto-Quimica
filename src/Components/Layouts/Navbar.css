@@ -1,5 +1,3 @@
-/* Navbar.css */
-
 header {
   width: 100%;
   background-color: #030226;
@@ -29,7 +27,7 @@ header > nav > ul {
   align-items: center;
   justify-content: center;
   gap: 25px;
-  transition: 2s;
+  transition: 1s all ease-in-out;
 }
 
 header > nav > ul > li > a {
@@ -49,26 +47,36 @@ header > nav > .mobile {
   header > nav {
     flex-direction: row-reverse;
     flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
   }
 
   header > nav > ul {
     display: none;
     width: 100%;
     flex-direction: column;
-    transition: 2s;
     margin-top: 1em;
-  }
-
-  header > nav > ul.mobile-menu-open {
-    display: flex;
   }
 
   header > nav > .mobile {
     width: 50%;
     display: block;
     color: white;
-    text-align: center;
+    text-align: right;
     margin-top: 1em;
+  }
+
+  header > nav > ul.mobile-menu-open {
+    display: flex;
+    flex-direction: row;
+    transform: translateX(0px);
+    padding: 2em;
+  }
+  
+  ul.mobile-menu {
+    display: flex;
+    flex-direction: row;
+    transform: translateX(-500px);
   }
 
   header > nav > .mobile > .listMobile {
