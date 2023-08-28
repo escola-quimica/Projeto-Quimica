@@ -8,12 +8,14 @@
   text-align: center;
   padding-top: 10px;
   font-size: 200%;
+  transition: 2s;
 }
 
 .tituloMembros{
   margin: 15px;
   text-align: right;
   font-size: 175%;
+  transition: 2s;
 }
 
 .container{
@@ -24,9 +26,11 @@
   width: 750px;
   margin-top: 50px;
   margin-bottom: 100px;
+  transition: 2s;
 }
 
 .container .card{
+  transition: 2s;
   background-color: rgb(241, 239, 239);
   margin: 10px;
   border-radius: 10px;
