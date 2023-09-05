@@ -63,10 +63,10 @@ const Home = () => {
           <h1>Escola de Química</h1>
           <span>Computacional</span>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum
-            maxime quibusdam amet, quas doloribus incidunt vel ipsa ad quasi
-            fugiat neque porro explicabo nam excepturi cum quisquam consectetur.
-            Provident, unde?
+            O projeto tem como objetivo tornar mais acessíveis materiais de alta
+            qualidade em língua portuguesa sobre Química Computacional e
+            proporcionar aos alunos a oportunidade de terem sua primeira
+            experiência com pesquisa científica.
           </p>
         </animated.div>
         <animated.div className="banner-img" style={bannerAnimation}>
@@ -83,10 +83,7 @@ const Home = () => {
             photo={imagemEscolaQuimica}
             alt="Foto da Escola de Química Computacional"
             title="Quem somos"
-            text={`Lorem ipsum dolor sit amet consectetur adipisicing elit
-              Voluptatum maxime quibusdam amet, quas doloribus incidunt vel ipsa
-              ad quasi fugiat neque porro explicabo nam excepturi cum quisquam
-              consectetur. Provident, unde`}
+            text={`Somos um grupo de cientistas de diversas áreas e níveis acadêmicos, que incluem professores universitários, pós-doutorandos, doutores, mestres e graduandos, abrangendo cursos desde Química até Engenharia da Computação. Unimo-nos com o principal objetivo de fornecer materiais de qualidade e estimular a próxima geração de pesquisadores no Brasil.`}
             hasActions
             layoutType="photo-left"
           />
@@ -99,12 +96,9 @@ const Home = () => {
           <DescriptionBox
             photo={imagemEscolaQuimica}
             alt="Foto da Escola de Química Computacional"
-            title="Quem somos"
-            text={`Lorem ipsum dolor sit amet consectetur adipisicing elit
-              Voluptatum maxime quibusdam amet, quas doloribus incidunt vel ipsa
-              ad quasi fugiat neque porro explicabo nam excepturi cum quisquam
-              consectetur. Provident, unde`}
-        
+            title="O que é a Escola de Química Computacional?"
+            text={`Durante o programa, os alunos atuarão como pesquisadores, desenvolvendo um projeto e recebendo orientação de pós-graduandos na área de Química Computacional. Além disso, terão a oportunidade de aprender a programar em Python, com foco na utilização de Inteligência Artificial. Para aprimorar ainda mais suas habilidades, serão realizados workshops mensais abordando temas como leitura de artigos científicos, aprendizado do inglês e o uso ético de ferramentas de inteligência artificial.
+            `}
           />
         </animated.div>
       </div>
@@ -119,7 +113,7 @@ const Home = () => {
               Voluptatum maxime quibusdam amet, quas doloribus incidunt vel ipsa
               ad quasi fugiat neque porro explicabo nam excepturi cum quisquam
               consectetur. Provident, unde`}
-              layoutType="photo-left"
+            layoutType="photo-left"
           />
         </animated.div>
       </div>

@@ -15,7 +15,7 @@ const Footer = () => {
         </div>
 
         <div className="linksIcons">
-          <a href="#">
+          <a href=" https://www.youtube.com/@QuimicaComputacional/featured">
             <BsYoutube />
           </a>
           <a href="#">
@@ -29,8 +29,7 @@ const Footer = () => {
 
       <div className="contact-info">
         <h1>Contato</h1>
-        <p>Email: jaojoaojo@akakpkpak.com</p>
-        <p>Telefone: 99999-99999</p>
+        <span>Email: escoladequimicacomputacional@gmail.com</span>
       </div>
     </footer>
   );
