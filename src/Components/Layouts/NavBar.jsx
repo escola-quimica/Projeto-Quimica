@@ -28,7 +28,10 @@ const NavBar = () => {
 
         <ul className={mobileMenuOpen ? "mobile-menu-open" : "mobile-menu"}>
           <li>
-            <Link to={"/membros"}>Membros </Link>
+            <Link to={"/membros"}>Membros</Link>
+          </li>
+          <li>
+            <Link to={"/software"}>Software</Link>
           </li>
         </ul>
       </nav>
