@@ -104,6 +104,19 @@ const Membros = () => {
 
         <h2 className="tituloMembros"> Desenvolvedores</h2>
 
+       {/* Card Alcides */}
+       <div className="card">
+          <img src={membroAlcides} alt="" />
+          <h1 className="nome">Alcides Ribeiro</h1>
+          <div className="atuacao"> 
+            <p>Tópico da pesquisa:</p>
+            <p>Otimização e Algoritmos</p>
+          </div>
+          <a href="https://github.com/srcid" target="_blank" rel="noreferrer"> 
+            <img src={github} alt="" />
+          </a>
+        </div>
+
 
         {/* Card Filipe*/}
           <div className="card">
@@ -155,19 +168,6 @@ const Membros = () => {
             <p>Divulgação científica e checagem de fatos.</p> 
           </div>
           <a href="" target="_blank" rel="noreferrer"> 
-            <img src={github} alt="" />
-          </a>
-        </div>
-
-        {/* Card Alcides */}
-        <div className="card">
-          <img src={membroAlcides} alt="" />
-          <h1 className="nome">Alcides Ribeiro</h1>
-          <div className="atuacao"> 
-            <p>Tópico da pesquisa:</p>
-            <p>Otimização e Algoritmos</p>
-          </div>
-          <a href="https://github.com/srcid" target="_blank" rel="noreferrer"> 
             <img src={github} alt="" />
           </a>
         </div>
