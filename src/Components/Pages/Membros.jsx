@@ -22,11 +22,10 @@ import site from "../../assets/imgs/site.png"
 const Membros = () => {
   return (
    <>
-      
-    <h1 className="textoMembros"> Membros Ativos</h1>
 
-    
     <div className="container">
+      
+      <h1 className="textoMembros"> Membros Ativos</h1>
       
       <h2 className="tituloMembros"> Fundador </h2>
 
