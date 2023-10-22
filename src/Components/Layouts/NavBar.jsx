@@ -31,7 +31,7 @@ const NavBar = () => {
             <Link to={"/membros"}>Membros</Link>
           </li>
           <li>
-            <Link to={"/software"}>Software</Link>
+            <Link to={"/software"}>Softwares</Link>
           </li>
         </ul>
       </nav>
