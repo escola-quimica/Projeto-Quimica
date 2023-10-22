@@ -1,0 +1,11 @@
+.software-card-btn {
+  background-color: #c0c7d2;
+  padding: 1rem;
+  border-radius: 4px;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+
+  color: #090030;
+  font-weight: bold;
+  text-decoration: none;
+}

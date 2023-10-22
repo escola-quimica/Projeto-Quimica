@@ -1,0 +1,28 @@
+.software-card {
+  margin-top: 1rem;
+}
+
+.software-card__container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 1000px;
+}
+
+.software-card__content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.software-card__content div {
+  text-align: justify;
+}
+
+.software-card__content--logo {
+  width: 30%;
+}
+
+.software-card__content--desc {
+  width: 65%;
+}
