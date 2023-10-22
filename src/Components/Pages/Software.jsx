@@ -26,6 +26,7 @@ const Software = () => {
         <SoftwareCard
           title="Orca"
           logo={softwareOrcaLogo}
+          article="orca.gg"
         >
           <p>
             O ORCA é um renomado software de química quântica utilizado para
