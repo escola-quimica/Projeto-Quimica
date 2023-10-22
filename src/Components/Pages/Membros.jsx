@@ -22,11 +22,10 @@ import site from "../../assets/imgs/site.png"
 const Membros = () => {
   return (
    <>
-      
-    <h1 className="textoMembros"> Membros Ativos</h1>
 
-    
     <div className="container">
+      
+      <h1 className="textoMembros"> Membros Ativos</h1>
       
       <h2 className="tituloMembros"> Fundador </h2>
 
@@ -104,6 +103,19 @@ const Membros = () => {
 
         <h2 className="tituloMembros"> Desenvolvedores</h2>
 
+       {/* Card Alcides */}
+       <div className="card">
+          <img src={membroAlcides} alt="" />
+          <h1 className="nome">Alcides Ribeiro</h1>
+          <div className="atuacao"> 
+            <p>Tópico da pesquisa:</p>
+            <p>Otimização e Algoritmos</p>
+          </div>
+          <a href="https://github.com/srcid" target="_blank" rel="noreferrer"> 
+            <img src={github} alt="" />
+          </a>
+        </div>
+
 
         {/* Card Filipe*/}
           <div className="card">
@@ -145,6 +157,7 @@ const Membros = () => {
             <img src={github}alt="" />
           </a>
         </div>
+        
 
         {/* Card Natanael*/}
         <div className="card">
