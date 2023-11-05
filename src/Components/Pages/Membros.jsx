@@ -172,19 +172,6 @@ const Membros = () => {
           </a>
         </div>
 
-        {/* Card Alcides */}
-        <div className="card">
-          <img src={membroAlcides} alt="" />
-          <h1 className="nome">Alcides Ribeiro</h1>
-          <div className="atuacao"> 
-            <p>Tópico da pesquisa:</p>
-            <p>Otimização e Algoritmos</p>
-          </div>
-          <a href="https://github.com/srcid" target="_blank" rel="noreferrer"> 
-            <img src={github} alt="" />
-          </a>
-        </div>
-
       </div>
   </>
   )
