@@ -1,6 +1,6 @@
 import { useSpring, animated } from "react-spring";
 import DescriptionBox from "../Layouts/DescriptionBox";
-import imagemEscolaQuimica from "../imgs/logoQuimica.jpeg";
+import imagemEscolaQuimica from "../../assets/imgs/logoQuimica.jpeg";
 import "./Home.css";
 import { useInView } from "react-intersection-observer";
 

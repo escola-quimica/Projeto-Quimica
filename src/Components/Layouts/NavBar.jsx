@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 import { BsList } from "react-icons/bs";
 import { useState } from "react";
 
-import EscolaQuimicaLogo from "../imgs/logoQuimica.jpeg";
+import EscolaQuimicaLogo from "../../assets/imgs/logoQuimica.jpeg";
 
 import "./Navbar.css";
 
